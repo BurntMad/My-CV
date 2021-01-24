@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
+body{padding-bottom:100px;width:100%!important; height:100%; background: url(/assets/img/bg_b_w.png) repeat !important; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  }
+h1{font-family: 'Archivo Narrow'; font-size: 2em; text-align: center; margin-top: 70px;}
+.secondary{ font-weight: 300; font-size: 1em;  color:#777777; text-align: justify;}
+h2.mainterms{font-weight: 800; font-size: .8em; }
+.maintermswrapper{background:#f8f8f8; width:100%; min-height:40px; border-bottom: 1px solid #cccccc;}
+h3.playtitle{background: #1cb7eb;font-family: 'Archivo Narrow'; font-size:1.5em; padding: 0px 0px 0px 31px}
+h4{font-family: 'Archivo Narrow';}
+.user-info{ padding-left: 30px!important;}
+.barranegra{min-height:35px!important;}
+.profilepic{ margin-top:15px;}
+.grey{color:#999999;}
+.main{margin-bottom: 20px !important;}
+.spacer{height:20px;}
+.bluetxt{color: #1cb7eb;}
+.bgwhite{ background: white;}
+.titulacion{font-weight: 300;}
+.espai{height:10px;}
+.borderbtm{border-bottom: 1px solid #cccccc;}
+.bordertop{border-top: 1px solid #cccccc;}
+.navbarsup{background: #282828; margin-top: 40px;}
+.splitter{background: #1cb7eb; height:5px; width: 100%;}
+.contactmails{line-height: 1.6; margin:0px 0px 0px 0px; font-size: 0.75em;}
+.contactmails a{color: #999999;}
+.fechas{width:100%;margin-top: 20px;margin-bottom: 0px!important;}
+.title{color:#222222;font-family: 'Archivo Narrow';}
+.downloables{margin-top: 20px!important;}
+a.pdf{background: #1cb7eb url(/assets/img/pdficon.png) no-repeat; padding:11px 10px 11px 35px; font-family: 'Archivo Narrow';}
+a.word{background: #1cb7eb url(/assets/img/wordicon.png) no-repeat; padding:11px 10px 11px 35px; font-family: 'Archivo Narrow';}
+a.phone{background: #1cb7eb; padding:11px 10px 11px 35px; font-family: 'Archivo Narrow';}
+.button{width:100%; margin:0px;}
+.nomarg{margin:0px!important; padding:0px!important;}
+.right{color:#fff;float:right; margin:10px 0px 10px 0px }
+.right i{font-size: 1.5em; margin-left: 20px;}
+.right a{color:#fff!important;}
+.imgwrapper{border-bottom: 3px solid #000000;}
+.brandswrapper{ border: 1px solid #cccccc; -moz-box-shadow: inset 0 0 5px #cccccc; -webkit-box-shadow: inset 0 0 5px#cccccc; box-shadow: inner 0 0 5px #cccccc; }
+.logos{ padding:7px 19px 6px 19px; height:63px;}
+.logosultim{border:none;}
+.content{padding-bottom: 50px;}
+.content p{font-weight: 300; font-size: 0.9em;  color:#2a2e2f; text-align: justify;}
+.content p.introcontent{font-family: inherit;font-weight: normal;font-size: 1em;line-height: normal;margin-bottom: 1.25em;text-rendering: optimizeLegibility;}
+
+
+
+.systems{padding:0px;border-style: solid; border-width: 1px; display: block; font-weight: bold; margin-bottom: 1.25em; position: relative; font-size: 0.875em; background-color: #1cb7eb; border-color: #2284a1; color: white;}
+.systems ul{list-style: disc; padding:5px;}
+.systems ul li{border-bottom: 1px solid #2284a1;padding:5px;}
+.systems ul li a{ font-size: 0.94em; font-weight: 300; color:#ffffff;}
+
+
+/* Thumbnail 2*/
+.editor{font-family: 'Helvetica Neue', Helvetica, sans-serif !important;
+font-size: 13px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+line-height: 19.5px;
+text-align: justify!important;
+color:#777777!important;
+margin-top:5px; margin-bottom: 5px;}
+.editor div{font-family: 'Helvetica Neue', Helvetica, sans-serif !important;font-weight: 300; font-size: 13px!important;  color:#777777!important; text-align: justify; margin-top:5px; margin-bottom: 5px;}
+.editor div b{font-family: 'Helvetica Neue', Helvetica, sans-serif !important;color:#000!important;}
+.editor p, .form p{font-family: 'Helvetica Neue', Helvetica, sans-serif !important;font-weight: 300; font-size: 13px;  color:#777777; text-align: justify; margin-top:5px; margin-bottom: 10px;}
+.editor ul{font-family: 'Helvetica Neue', Helvetica, sans-serif !important; margin-left: 30px;}
+.editor ul li{font-family: 'Helvetica Neue', Helvetica, sans-serif !important; font-weight: 300; font-size: 13px;  color:#777777; text-align: justify;}
+.editor blockquote{border:none!important;}
+
+@media all and (max-width: 1000px) {
+h1{margin-top: 10px!important;}
+.right{color:#fff;float:right; margin:10px 0px 10px 0px }
+.right i{font-size: 1.5em; margin-left: 10px;}
+}
+
+.embed-responsive{
+    margin:0 auto!important;
+    text-align: center;
+}
+.embed-responsive-item{
+  height:340px!important;
+  width:100%!important;
+  margin:0 auto!important;
+}
+
+@media only screen and (min-width:1000px) {
+    .embed-responsive-item{
+  height:340px!important;
+  width:100%!important;
+  margin:0 auto!important;
+    }
+}
+
+
+/*  ----- References --------  */
+.refrow{margin-bottom:20px;}
+
+.message-arrow{
+  background:url(/assets/img/eee-arrow.png);
+  float:left;
+  width: 15px;
+  height: 15px;
+
+
+}
+
+.message-content{
+  display: inline-block;
+  width:95%;
+  background:#eee;
+  -webkit-border-radius: 3px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius: 3px;
+  -moz-border-radius-topleft: 0;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  
+}
+
+.quotebegins, .quotefinishes{
+  font-size: 40px!important;
+  color:#1cb7eb!important;
+}
+
+.message-content span{
+  font-weight: 200;
+  font-size: 1.2em;
+  line-height: 1.42857143;
+  color: #333;
+  padding: 5px;
+  text-align: center!important;
+}
+.quote-author{
+  text-align: right;
+  font-weight: 200!important;
+  margin-right: 10px;
+}
+
+/*  ----- End of references --------  */
+
+/*  ----- List of certificates --------  */
+
+.rectangle-list li{color:#fff;}
+.rectangle-list a, .rectangle-list p{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #eee;
+    color: #1cb7eb;
+    text-decoration: none;
+    transition: all .3s ease-out;   
+}
+
+.rectangle-list a:hover, .rectangle-list a:active{
+    background: #ddd;
+    color:#1cb7eb!important;
+    text-decoration: none;
+}   
+
+.rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #1cb7eb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.rectangle-list a:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.rectangle-list a:hover:after{
+    left: -.5em;
+    border-left-color: #1cb7eb;             
+} 
+
+.sinlink{color:#333!important;}
+.conlink{color:#1cb7eb!important;}
+
+/*  ----- End of List of certificates --------  */
+
+
+.jq-star{width:20px!important;}
+.cursos{
+  margin:40px auto;
+  font-size: 1.2em;
+
+}
+.logro, .cover, .form p{margin-bottom:30px;}
+.form-group label{
+  color: #222222;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+.enviar{
+  background:#1cb7eb;
+  font-weight: 700;
+  color:#333;
+  font-family: 'Archivo Narrow';
+}
+
+.enviar:hover{
+  background:#4dc6ef;
+  font-weight: 700;
+  color:#333;
+  font-family: 'Archivo Narrow';
+}
+
+
+
